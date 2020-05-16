@@ -21,6 +21,8 @@ public class Fraccion {
 	}
 	
 	public static Fraccion suma(Fraccion sumando1, Fraccion sumando2) {
+	
+	//comentario de David
 	}
 	public static Fraccion multiplicacion(Fraccion sumando1, Fraccion sumando2) {
 	}
