@@ -36,8 +36,8 @@ public class Fraccion {
 		
 		Fraccion f;
 		
-		int denominador = (sumando1.denominador)*(sumando2.denominador);
-		int numerador = (sumando1.numerador)*(sumando2.denominador) + (sumando1.denominador)*(sumando2.numerador);
+		int denominador = ((sumando1.denominador)*(sumando2.denominador));
+		int numerador = ((sumando1.numerador)*(sumando2.denominador)) + ((sumando1.denominador)*(sumando2.numerador));
 		
 		f = new Fraccion (numerador, denominador);
 		
