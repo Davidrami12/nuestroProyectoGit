@@ -26,15 +26,11 @@ public class Fraccion {
 	//comentario2
 	}
 	
-	public static Fraccion division(Fraccion sumando1, Fraccion sumando2) {
-	//comentario de David
-	}
-	
 	public static Fraccion multiplicacion(Fraccion sumando1, Fraccion sumando2) {
 	
 	}*/
 	
-	
+	//faltan testear
 	public static Fraccion suma(Fraccion sumando1, Fraccion sumando2) {
 		
 		Fraccion resultadoSum;
