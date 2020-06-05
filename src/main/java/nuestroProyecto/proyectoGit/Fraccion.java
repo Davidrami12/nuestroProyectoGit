@@ -18,15 +18,52 @@ public class Fraccion {
  * 
  * 
 	public static Fraccion simplifica(Fraccion entrada) {
+	
 	}
 	
 	public static Fraccion suma(Fraccion sumando1, Fraccion sumando2) {
+	//suma de david
+	
+	//comentario de David
+	//comentario2
+	
 	}
+	public static Fraccion division(Fraccion sumando1, Fraccion sumando2) { 
+	//division de david
+		
+		
+	}
+	
 	public static Fraccion multiplicacion(Fraccion sumando1, Fraccion sumando2) {
+	
+	}*/
+	
+	
+	public static Fraccion suma(Fraccion sumando1, Fraccion sumando2) {
+		
+		Fraccion resultadoSum;
+		
+		int denominador = ((sumando1.denominador)*(sumando2.denominador));
+		int numerador = ((sumando1.numerador)*(sumando2.denominador)) + ((sumando1.denominador)*(sumando2.numerador));
+		
+		resultadoSum = new Fraccion (numerador, denominador);
+		
+		return resultadoSum;
 	}
+	
 	public static Fraccion division(Fraccion sumando1, Fraccion sumando2) {
+		
+		Fraccion resultadoDiv;
+		
+		int numerador = ((sumando1.numerador)*(sumando2.denominador));
+		int denominador = ((sumando1.denominador)*(sumando2.numerador));
+		
+		resultadoDiv = new Fraccion (numerador, denominador);
+		
+		return resultadoDiv;
+		
 	}
-*/
+	
 	public int getNumerador() {
 		return numerador;
 	}
