@@ -18,19 +18,27 @@ public class Fraccion {
  * 
  * 
 	public static Fraccion simplifica(Fraccion entrada) {
+	
 	}
 	
 	public static Fraccion suma(Fraccion sumando1, Fraccion sumando2) {
+	//suma de david
 	
 	//comentario de David
 	//comentario2
+	
+	}
+	public static Fraccion division(Fraccion sumando1, Fraccion sumando2) { 
+	//division de david
+		
+		
 	}
 	
 	public static Fraccion multiplicacion(Fraccion sumando1, Fraccion sumando2) {
 	
 	}*/
 	
-	//faltan testear
+	
 	public static Fraccion suma(Fraccion sumando1, Fraccion sumando2) {
 		
 		Fraccion resultadoSum;
